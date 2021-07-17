@@ -1,0 +1,43 @@
+<!--inicio del documento html-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document 1</title>
+   
+    <!--la etiqueta style permite una conexion dentro del html con el css, cascade style sheet, que nos permite agregar diseños al documento-->
+    <style>
+        body 
+        {
+            background-color: aquamarine;
+            color: black;
+            text-align: center;
+        }
+        canvas 
+        {
+            border: 1px solid red;
+        
+        }
+
+    </style>
+      
+</head>
+<body>
+    <h1>dibujo</h1>
+    <!-- a traves de las etiquetas input agregamos cajas, que luego se volveran interactivas a traves del html-->
+    <input type="color" name="color" id="colorcito"> <br><br>
+    <input type="text"  id="textico" placeholder=" forma 1">
+    <input type="button" value="forma 1" id = "botoncito"> <br><br>
+    <input type="text" id = "textico2" placeholder=" forma 2">
+    <input type="button" value ="forma 2" id = "botoncito2"><br><br>
+
+     <!--canvas es una manera del "dibujar" dentro del "html",aunque en realidad html lo unico que proporciona es la caja-->
+     <!--mas es con js con el que se agrega interactividad, es con el que realmente se dibuja-->
+    <canvas id="dibujito" width="1000" height="1000"></canvas>
+    <p>siiii</p>
+    <script src="aaaa.js"></script>
+
+</body>
+</html>

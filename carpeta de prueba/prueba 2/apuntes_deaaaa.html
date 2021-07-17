@@ -1,0 +1,174 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>dibujando en canvas</title>
+    <style media="screen">
+       body
+       {
+         background-color : #AFF;
+         color: black;
+       }
+
+      canvas
+      {
+        border : 1px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><strong>asi se dibuja con canvas</strong></h1>
+    <input type="text" id =" textico" placeholder = "escribe tu numero aqui"/>
+    <input type="button" id ="botoncito" value = "vamo a darle"/> <br/><br/>
+    <canvas id="canvitas" width="300" height="300"></canvas>
+     <p><strong>como lo ves</strong></p>
+     <script type="text/javascript" src = "a.js">
+
+     </script>
+  </body>
+</html>
+
+
+
+
+
+var c = document.getElementById("canvitas");
+var lienzo = c.getContext("2d");
+
+
+var texto = document.getElementById("textico");
+var b = document.getElementById("botoncito");
+b.addEventListener("click",dibujoporclick);
+
+
+function dibujar_linea(color,xinicial,yinicial,xfinal,yfinal)
+{
+  lienzo.beginPath();
+  lienzo.strokeStyle = color;
+  lienzo.moveTo(xinicial,yinicial);
+  lienzo.lineTo(xfinal,yfinal);
+  lienzo.stroke();
+  lienzo.closePath();
+
+}
+
+for (var i = 0; i < 30; i++) {
+
+  var yi = 10 * i;
+  var xf = 10 * (i + 1);
+  dibujar_linea("blue",1,xf,yi,300);
+   
+   }
+
+  for (var i2 = 0; i2 < 30; i2 ++) {
+
+    var yi1 = 10 * i2;
+    var xf1 = 300 - 10 - (i2 * 10);
+   dibujar_linea("red",300,yi1,xf1,300);
+  
+  }
+
+
+  for (var i3 = 0; i3 < 30; i3++) {
+
+    var xi = 10 * i3;
+    var yf = 10 * (i3 + 1);
+    dibujar_linea("yellow",xi,1,300,yf);
+      
+    }
+
+    for (var i4 = 0; i4 < 30; i4 ++) {
+
+      var xi1 = 10 * i4;
+      var yf1 = 300 - 10 - (i4 * 10);
+      dibujar_linea("yellow", xi1,1,1,yf1);
+      
+
+    }
+
+
+
+
+
+function dibujoporclick()
+{
+
+alert("holis");
+}
+
+
+
+
+<!-- proyecto peso en otro planeta -->
+
+else if(planeta==3)
+{
+  resultado_final = usuario * g_tierra / g_tierra;
+  nombre = "tierra"
+}
+
+else if(planeta==4)
+{
+  resultado_final = usuario * g_marte / g_tierra;
+  nombre = "marte";
+}
+
+else if (planeta==5)
+{
+  resultado_final = usuario * g_jupiter / g_tierra;
+  nombre = "jupiter";
+}
+
+else if (planeta==6)
+{
+  resultado_final = usuario * g_saturno / g_tierra;
+  nombre = "saturno";
+}
+
+else if(planeta==7)
+{
+  resultado_final = usuario * g_urano / g_tierra;
+  nombre = "urano";
+}
+
+else if(planeta==8)
+{
+  resultado_final = usuario * g_neptuno / g_tierra;
+  nombre = "neptuno";
+}
+
+
+
+
+
+--------------------
+
+var g_mercurio =3.8;
+      var g_venus = 8.87;
+      var resultado_final;
+      var nombre;
+
+      if (planeta==1)
+      {
+          resultado_final = usuario * g_mercurio / g_tierra;
+          nombre = "mercurio";
+      }
+      else if (planeta==2)
+      {
+        resultado_final = usuario * g_venus / g_tierra;
+        nombre = "venus";
+
+      }
+
+      else
+      {
+        peso_final1 = 1000000000;
+        document.write("tu peso en los demas universos es igual a " + peso_final1);
+      }
+
+      resultado_final = resultado_final.toFixed(3);
+      document.write("tu peso en " + nombre + " es " + resultado_final + " kilos");
