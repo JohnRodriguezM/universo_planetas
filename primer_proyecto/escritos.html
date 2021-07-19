@@ -1,0 +1,102 @@
+<!--Inicio proyecto html:5-->
+
+<!--Con link rel = "icon" podemos establecer el icono de nuestra pagina, que acompaña al titulo-->
+<!-- el header nos permite crear una cabecera en el sitio web-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css"/>
+    <title>El universo en pocas palabras</title>
+    <link rel="icon" href="universo.jpg"/>
+</head>
+<body>
+    <div class="contenedor">
+    <header>
+        <h1>La cabeza en las estrellas: este es el universo</h1><br><hr>
+    </header>
+    <!--nav es una etiqueta de "navegacion", donde se proporcionan enlaces-->
+    <!--ol is ordered list-->
+    <!--li is a list item-->
+    <nav>
+        <ol>
+            <li><a href="https://es.wikipedia.org/wiki/Universo">Sobre el universo</a></li>
+            <li><a href="https://www.astromia.com/solar/sistemasolar.htm">Sobre el sistema solar</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Tierra">Sobre la tierra</a></li>
+        </ol>
+    </nav>   <br><br>
+<!-- el elemento a nos permite "anclar una url ya sea a un texto o a una imagen"-->
+<!-- el elemento center alinea los elementos al centro de la pagina-->
+    <center>
+        <a href ="https://es.wikipedia.org/wiki/Sistema_solar"> <img class ="imagen_Principal"src = "imagen_universo.jpg" alt="El universo y el sistema solar" 
+        width="400" height="300" /> </a>
+    </center>
+    <center>
+        <canvas id ="dibujito" width = "200" height="200"></canvas></center>
+    <center> 
+        <div>
+         <img class = "imagen1" src="mercurio.png" alt="planeta mercurio" width="120" height="86" title="Mercurio" />
+         <img class = "imagen2" src="venus.png" alt="planeta venus" width="120" height="86" title="Venus"/>
+         <img class = "imagen3" src="tierra.png" alt="planeta tierra" width="120" height="86" title="Tierra"/>
+         <img class = "imagen4" src="marte.png" alt="planeta marte" width="120" height="86" title="Marte"/>
+         <img class = "imagen5" src="jupiter.png" alt="planeta jupiter" width="120" height="86" title="Jupiter"/>
+         <img class = "imagen6" src="saturno.png" alt="planeta saturno" width="120" height="86" title="Saturno"/>
+         <img class = "imagen7" src="urano.png" alt="planeta urano" width="120" height="86" title="Urano"/>
+         <img class = "imagen8" src="neptuno.png" alt="planeta neptuno" width="120" height="86" title="Neptuno"/>
+        </div> 
+    </center> <br><br><br><br>
+<!--font size permite manejar el tamaño de la letra de manera individual-->    
+    <article>
+      <font size =6>E</font>l universo infinito es un concepto reciente. Durante mucho tiempo se consideraba una cúpula o un espacio
+      plano cuyo centro era la Tierra. No obstante, hoy en dia sabemos que esta formado de materia, desde elementos 
+      microscopicos hasta galaxias gigantes. Con una edad entre 16,000 y 17,000 millones de años segun la teoria del 
+      big crunch. Antes incluso de su desaparicion,dentro de 5000 millones de años, nuestro sol se apagara, entre 
+      millones de estrellas, cuando haya agotado toda su energia, es decir, en cuanto llegue a su fin la sucesion de reacciones
+      nucleares que lo sustentan. Pero que no cunda el panico, ya qeu hasta entonces el progreso de la ciencia quizá habrá cumplido
+      nuestro sueño de descubrir otro planeta habitale entre los miles de millones que pueblan el universo. 
+     </article><hr>
+    <h2>El origen del universo</h2>
+    <p>
+      ¡Asunto peliagudo! Interrogarse sobre el origen del universo no es mas ni menos que abordar la cuestion
+      fundamental de la humanidad, que atormenta a los seres humanos desde la noche de los tiempos. Pero no hay
+      por qué inquietarse, pues no nos perderemos en conjeturas metafísicas abstractas. Nuestro objetivo es mucho 
+      más modesto y, sobre todo, pragmático. Consiste en exponer, de forma esquemática, el estado actual de los 
+      conocimientos científicos sobre este tema. <hr> 
+      <h3>El concepto del universo</h3>
+    <p class = "p2">
+      El concepto del universo, antes de la aparición del método científico en el siglo XVII, destila una visión 
+      teológica. Los dioses, que se convertirán en uno solo, ordenan los planetas y las estrellas y crean al ser
+      humano, tras proveer la Tierra de todo lo necesario para su supervivencia. El siglo XX proporciona los medios
+      necesarios para verificar con instrumentos precisos, de forma experimental, la estructura, el nacimiento y la
+      evolucion del universo. <br/><br/> Hasta hace tiempos relativamente recientes  se postulaban cuatro teorias 
+      diferentes:
+
+      <ol>
+          <li><strong>El universo en expansion:</strong><p class = pli>- Nace tras una explosión gigantesca 
+              hace dieciséis mil millones de años (el famoso Big bang), está en expansións continua
+            y no conoce limites</p</li>
+          <li><strong>El universo pulsante</strong><p class = "pli2">Al igual que la hipotesis anterior, el
+              universo está en expansión continua, pero llegado a un punto de dicha expansión se contraerá y volverá 
+              a ocupar su espacio original, para explotar de nuevo. se denomina "pulsante" porque alterna la 
+              contracción y la expansión. En opocisión al big bang, se conoce también como Big crunch
+          </p></li>
+          <li><strong>El universo multiple</strong><p class="pli3"></p></li>
+          <li><strong>El universo estacionario</strong><p class="pli4"></p></li>
+      </ol>
+    
+    </p> 
+
+      
+
+      
+
+      
+
+    </p>
+    
+   </div> 
+    <script src="interactivo.js"></script>
+</body>
+</html>

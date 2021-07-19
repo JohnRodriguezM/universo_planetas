@@ -1,0 +1,36 @@
+/* ---- Inicio proyecto en css ---- */
+
+/* Aplicacion de estilos para el body */
+body  {width: 80%; height: 80%; max-width: 900px; margin-left: 0%; background-attachment: fixed; background-color: 
+    aqua;}
+   /*Aplicacion de estilos h1 -*/
+   h1 { width: 80%; margin-left: 5%; display: inline-block; text-align: center;font-size: 48px; border: 5px solid blue;} 
+   h2 { width: 80% ; padding:8px; font-size: 32px;}
+   h3 { width: 80% ; padding: 8px; font-size: 32px; }
+   /*Aplicacion de estilos al header .header (porque fue llamado a traves de una class)*/
+   header{text-anchor:unset;text-align: center;}
+   /*Apliacion de estilos a imagen central y a (imagen1 - imagen8)*/
+   .imagen_Principal {width: 80%;height: 80%; margin-left: 10%;  border: 2px solid blue; } .imagen1 {border: 2px solid blue;}
+   .imagen2 {border: 2px solid blue;} .imagen3 {  border: 2px solid blue;}
+   .imagen4 { border: 2px solid blue;} .imagen5 { border: 2px solid blue;}
+   .imagen6 { border: 2px solid blue;} .imagen7 {border: 2px solid blue;}
+   .imagen8 { border: 2px solid blue;}
+   /*Aplicacion de estilo a article*/
+   article  {width: 90%;font-size: larger;font-family:"Trebuchet MS";text-align: justify;margin: right 70%;
+   font-size: 20px;padding: 8px;} 
+   /*Aplicacion de estilos en etiquetas p*/
+   p{width: 77%;font-size: larger;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:8px;}
+   .pli{width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:10px;}
+   .pli2{width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:10px;}
+   .pli3{width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:10px;}
+   .pli4{width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:10px;}
+   /*Aplicacion estilo ol */
+   ol {width: 77%;font-size:larger;font-family:'Trebuchet MS';text-align: justify;margin-left: 30%;padding:8px;}
+   /*Aplicacion estilo div */
+   div{margin-left: 5%;}
+   /*Aplicacion estilo canvas */
+   canvas {margin-left: 5%;}
+       
+   
+   
+   
