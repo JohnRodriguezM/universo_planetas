@@ -1,5 +1,6 @@
 // Inicio proyecto Js //
 
+
 // declaracion variables a y lienzo que corresponden al elemento canvas //
 
 var a = document.getElementById("dibujito");
@@ -7,6 +8,7 @@ var lienzo = a.getContext("2d");
 
 var c = document.getElementById("texto_mercurio");
 var d = document.getElementById("boton_mercurio")
+
 
 var e = d.addEventListener("click", peso_1);
 
