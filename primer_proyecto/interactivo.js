@@ -1,43 +1,75 @@
 // Inicio proyecto Js //
-
-
+//No importa poscicion de las funciones, al inicio siempre se cargan en memoria//
+//La poscicion de las variables si es un factor importante//
+// ---------------//
 // declaracion variables a y lienzo que corresponden al elemento canvas //
-
-var a = document.getElementById("dibujito");
-var lienzo = a.getContext("2d");
-
-var c = document.getElementById("texto_mercurio");
-var d = document.getElementById("boton_mercurio")
-
-
-var e = d.addEventListener("click", peso_1);
-
-function peso_1(){
-    const g_tierra = 9.8;
-    const g_mercurio = 3.77 ;
-    let peso_final = c.value * g_mercurio / g_tierra;
-    peso_final = peso_final.toFixed(2);
-    alert(" tu peso en mercurio es igual a " + peso_final);
-}
-
-
+var a = document.getElementById("dibujito"); var lienzo = a.getContext("2d");
 //funcion dibujar_linea, su proposito es dibujar dentro del canvas//
 function dibujar_linea(color,xinicial,yinicial,xfinal,yfinal)
 {
-  lienzo.beginPath();
-  lienzo.strokeStyle = color;
-  lienzo.lineWidth = 4;
-  lienzo.moveTo(xinicial,yinicial);
-  lienzo.lineTo(xfinal,yfinal);
-  lienzo.stroke();
-  lienzo.closePath();
+  lienzo.beginPath(); lienzo.strokeStyle = color; lienzo.lineWidth = 4; lienzo.moveTo(xinicial,yinicial);
+  lienzo.lineTo(xfinal,yfinal); lienzo.stroke(); lienzo.closePath();
+}
+dibujar_linea("black",100,10,100,180); dibujar_linea("black",50,150,100,180); dibujar_linea("black",150,150,100,180);
+
+// declaracion variables caja texto y boton - peso mercurio - peso neptuno //
+var c = document.getElementById("texto_mercurio"); var d = document.getElementById("boton_mercurio");
+var e = document.getElementById("texto_venus"); var f = document.getElementById("boton_venus");
+var g = document.getElementById("texto_marte"); var h = document.getElementById("boton_marte");
+var i = document.getElementById("texto_jupiter"); var j = document.getElementById("boton_jupiter");
+var k = document.getElementById("texto_saturno"); var l = document.getElementById("boton_saturno"); 
+var m = document.getElementById("texto_urano"); var n = document.getElementById("boton_urano");
+
+
+// cajas addEventlistener//
+var a_1 = d.addEventListener("click", peso_1); var a_2 = f.addEventListener("click", peso_2);
+var a_3 = h.addEventListener("click", peso_3); var a_4 = j.addEventListener("click", peso_4);
+var a_5 = l.addEventListener("click", peso_5); var a_6 = n.addEventListener("click", peso_6);
+
+//funciones pesos//
+
+function peso_1(){const g_tierra = 9.8; const g_mercurio = 3.77 ; 
+let peso_final = c.value * g_mercurio / g_tierra; peso_final = peso_final.toFixed(2);
+document.getElementById("parrafo1").innerHTML = "tu peso en mercurio es " + peso_final + " kilogramos";}
+function peso_2(){const g_venus = 8.87; const g_tierra = 9.8; 
+let peso_final = e.value * g_venus / g_tierra; peso_final = peso_final.toFixed(2);
+document.getElementById("parrafo2").innerHTML = "Tu peso en venus es " + peso_final + " kilogramos";}
+function peso_3(){const g_tierra = 9.8;const g_marte = 3.721;
+let peso_final = g.value * g_marte / g_tierra;peso_final = peso_final.toFixed(2);
+document.getElementById("parrafo3").innerHTML = "Tu peso en Marte es " + peso_final + " Kilogramos";}
+function peso_4(){const g_tierra = 9.8; const g_jupiter = 24.7;
+let peso_final = i.value * g_jupiter / g_tierra; peso_final = peso_final.toFixed(2);
+document.getElementById("parrafo4").innerHTML = "Tu peso en Júpiter es " + peso_final + " Kilogramos";}
+
+function peso_5(){
+  const g_tierra = 9.8;
+  const g_saturno = 10.44;
+  let peso_final = k.value * g_saturno / g_tierra;
+  peso_final = peso_final.toFixed(2);
+  document.getElementById("parrafo5").innerHTML = "Tu peso en Saturno es " + peso_final + " Kilogramos";
+}
+function peso_6(){
+  const g_tierra = 9.8;
+  const g_urano = 9.0;
+  let peso_final = m.value * g_urano / g_tierra;
+  peso_final = peso_final.toFixed(2);
+  document.getElementById("parrafo6").innerHTML = "Tu peso en Urano es " + peso_final + " Kilogramos";
 }
 
-dibujar_linea("black",100,10,100,180);
-dibujar_linea("black",50,150,100,180);
-dibujar_linea("black",150,150,100,180);
+//pendiente peso en neptuno,solo y luna//
 
 
 
 
-//por hacer... (funciones, get elements,  PROYECTO PESO EN OTRO PLANETA)
+
+
+
+
+
+
+
+
+
+
+
+
