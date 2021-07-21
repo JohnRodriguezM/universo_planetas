@@ -58,14 +58,11 @@ document.getElementById("parrafo7").innerHTML = "Tu peso en Neptuno es " + peso_
 function peso_8(){const g_tierra = 9.8;const g_sol = 274;
 let peso_final = y.value * g_sol / g_tierra;peso_final = peso_final.toFixed(2);
 document.getElementById("parrafo8").innerHTML = "Tu peso en el Soooool es " + peso_final + " Kilogramos";}
+function peso_9(){const g_tierra = 9.8;const g_luna = 1.62 ;
+let peso_final = z.value * g_luna / g_tierra;peso_final = peso_final.toFixed(2);
+document.getElementById("parrafo9").innerHTML = "Tu peso en la Luna es " + peso_final + " Kilogramos"; }
 
-function peso_9(){
-  const g_tierra = 9.8;
-  const g_luna = 1.62 ;
-  let peso_final = z.value * g_luna / g_tierra;
-  peso_final = peso_final.toFixed(2);
-  document.getElementById("parrafo9").innerHTML = "Tu peso en la Luna es " + peso_final + " Kilogramos"; 
-}
+//Finalizacion del proyecto... por ahora//
 
 
 
