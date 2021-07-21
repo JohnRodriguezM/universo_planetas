@@ -19,12 +19,14 @@ var g = document.getElementById("texto_marte"); var h = document.getElementById(
 var i = document.getElementById("texto_jupiter"); var j = document.getElementById("boton_jupiter");
 var k = document.getElementById("texto_saturno"); var l = document.getElementById("boton_saturno"); 
 var m = document.getElementById("texto_urano"); var n = document.getElementById("boton_urano");
+var ñ = document.getElementById("texto_neptuno"); var o = document.getElementById("boton_neptuno");
 
 
 // cajas addEventlistener//
 var a_1 = d.addEventListener("click", peso_1); var a_2 = f.addEventListener("click", peso_2);
 var a_3 = h.addEventListener("click", peso_3); var a_4 = j.addEventListener("click", peso_4);
 var a_5 = l.addEventListener("click", peso_5); var a_6 = n.addEventListener("click", peso_6);
+var a_7 = o.addEventListener("click", peso_7); 
 
 //funciones pesos//
 
@@ -54,6 +56,15 @@ function peso_6(){
   let peso_final = m.value * g_urano / g_tierra;
   peso_final = peso_final.toFixed(2);
   document.getElementById("parrafo6").innerHTML = "Tu peso en Urano es " + peso_final + " Kilogramos";
+}
+
+function peso_7{
+  const g_tierra = 9.8;
+  const g_neptuno = 11.1;
+  let peso_final = ñ.value * g_neptuno / g_tierra;
+  peso_final = peso_final.toFixed(2);
+  document.getElementById("parrafo7").innerHTML = "Tu peso en Neptuno es " + peso_final + " Kilogramos ";
+
 }
 
 //pendiente peso en neptuno,solo y luna//
