@@ -1,4 +1,5 @@
 // Inicio proyecto Js //
+//--------------------//
 //No importa poscicion de las funciones, al inicio siempre se cargan en memoria//
 //La poscicion de las variables si es un factor importante//
 // ---------------//
@@ -63,6 +64,7 @@ let peso_final = z.value * g_luna / g_tierra;peso_final = peso_final.toFixed(2);
 document.getElementById("parrafo9").innerHTML = "Tu peso en la Luna es " + peso_final + " Kilogramos"; }
 
 //Finalizacion del proyecto... por ahora//
+//-------------------------------------//
 
 
 
