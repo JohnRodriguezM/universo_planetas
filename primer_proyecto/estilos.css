@@ -3,7 +3,7 @@
 
 
 /* Aplicacion de estilos para el body */
-body  {width: 80%; height: 80%; max-width: 950px; margin-left: 0%; background-attachment: fixed; background-color:aquamarine;}
+body  {width: 80%; height: 80%; max-width: 1000px; margin-left: 0%; background-attachment: fixed; background-color:aquamarine;}
    /*Aplicacion de estilos h1 - h4*/
    h1 { width: 80%; margin-left: 5%; display: inline-block; text-align: center;font-size: 48px; border: 5px solid blue;} 
    h2 { width: 80% ; padding:8px; font-size: 32px;} h3 { width: 80% ; padding: 8px; font-size: 32px; }

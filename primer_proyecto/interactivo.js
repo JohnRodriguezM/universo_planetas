@@ -11,7 +11,7 @@ function dibujar_linea(color,xinicial,yinicial,xfinal,yfinal)
   lienzo.beginPath(); lienzo.strokeStyle = color; lienzo.lineWidth = 4; lienzo.moveTo(xinicial,yinicial);
   lienzo.lineTo(xfinal,yfinal); lienzo.stroke(); lienzo.closePath();
 }
-dibujar_linea("black",100,10,100,180); dibujar_linea("black",50,150,100,180); dibujar_linea("black",150,150,100,180);
+dibujar_linea("blue",100,10,100,180); dibujar_linea("red",50,150,100,180); dibujar_linea("yellow",150,150,100,180);
 
 // declaracion variables caja texto y boton - peso mercurio - peso neptuno //
 var c = document.getElementById("texto_mercurio"); var d = document.getElementById("boton_mercurio");
