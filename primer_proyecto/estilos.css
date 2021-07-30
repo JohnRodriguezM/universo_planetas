@@ -1,13 +1,13 @@
 /* ---- Inicio proyecto en css ---- */
-/*----------------------------------*/
+
 
 
 /* Aplicacion de estilos para el body */
 body  {width: 80%; height: 80%; max-width: 1000px; margin-left: 0%; background-attachment: fixed; background-color:aquamarine;}
    /*Aplicacion de estilos h1 - h4*/
-   h1 { width: 80%; margin-left: 5%; display: inline-block; text-align: center;font-size: 48px; border: 5px solid blue;} 
+   h1 { width: 80%; margin-left: 5%; display: inline-block; text-align: center;font-size: 48px; border: 3px solid blue; border-radius: 15%;} 
    h2 { width: 80% ; padding:8px; font-size: 32px;} h3 { width: 80% ; padding: 8px; font-size: 32px; }
-   h4 { width: 80% ; padding: 8px; font-size: 22px; }
+   /* edicion rama footer */ h4 { width: 80% ; padding: 8px; font-size: 22px; }
    /*Aplicacion de estilos al header .header (porque fue llamado a traves de una class)*/
    header{text-anchor:unset;text-align: center;}
    /*Apliacion de estilos a imagen central y a (imagen1 - imagen8)*/
@@ -23,18 +23,33 @@ body  {width: 80%; height: 80%; max-width: 1000px; margin-left: 0%; background-a
    .pli2{width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:10px;}
    .pli3{width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:10px;}
    .pli4{width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:10px;}
-   .pli5 {width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 10%;padding:10px;}
+   /*edidcion rama footer */.pli5 {width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 10%;padding:10px;}
    #parrafo5{background: sandybrown; width: 38%;}
    #parrafo6{background: sandybrown; width: 38%;}
    #parrafo9 {background: sandybrown; width: 38%;}
    /*Aplicacion estilo ol */
-   ol {width: 77%;font-size:larger;font-family:'Trebuchet MS';text-align: justify;margin-left: 30%;padding:8px;}
+   ol {width: 80%;font-size:larger;font-family:'Trebuchet MS';text-align: justify;margin-left: 30%;padding:8px;}
+   #ol1{color:red;margin-left: 40%;}
    /*Aplicacion estilo div */
    div{margin-left: 5%;}
    /*Aplicacion estilo canvas */
    canvas {margin-left: 5%;}
     
-   /* Finalizaciond el proyecto... por ahora */
-   /*----------------------------*/
+   /* Finalizaciond el proyecto... por ahora *   -- inicia continuacion (merge ramas )*/
+
+
+
    
+   /* Corresponde  la edicion de la rama footer :
+
+   - h4
+   - p class pli5
+   -comprobar si es posible la edicion de los inputs 
+   - img src = ./imagenes/via_lactea.png
+   - footer y subs. 
+
+
+   se deben hacer los cambios de manera individual debido a que esta todo entrañado con la etiqueta div
+
+   */
    
