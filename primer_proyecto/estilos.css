@@ -3,15 +3,15 @@
 
 
 /* Aplicacion de estilos para el body */
-body  {width: 80%; height: 80%; max-width: 1000px; margin-left: 5%; background-attachment: fixed; background-color:aquamarine;}
+body  {width: 80%; height: 80%; max-width: 1000px; margin-left: auto%; background-attachment: fixed; background-color:aquamarine;}
    /*Aplicacion de estilos h1 - h4*/
    h1 { width: 80%; margin-left: 5%; display: inline-block; text-align: center;font-size: 48px; border: 3px solid blue; border-radius: 15%;} 
    h2 { width: 80% ; padding:8px; font-size: 32px;} h3 { width: 80% ; padding: 8px; font-size: 32px; }
    /* edicion rama footer */ h4 { width: 80% ; padding: 8px; font-size: 22px; }
    /*Aplicacion de estilos al header .header (porque fue llamado a traves de una class)*/
-   header{text-anchor:unset;text-align: center;}
+   header{t;text-align: center;}
    /*Apliacion de estilos a imagen central y a (imagen1 - imagen8)*/
-   .imagen_Principal {width: 80%;height: 80%; margin-left: 10%;  border: 2px solid blue; } .imagen1 {border: 2px solid blue;}
+   .imagen_Principal {width: 100%;height: 100%; margin-left: 0%;  border: 2px solid blue; } .imagen1 {border: 2px solid blue;}
    .imagen2 {border: 2px solid blue;} .imagen3 {  border: 2px solid blue;} .imagen4 { border: 2px solid blue;} .imagen5 { border: 2px solid blue;}
    .imagen6 { border: 2px solid blue;} .imagen7 {border: 2px solid blue;} .imagen8 { border: 2px solid blue;}
    /*Aplicacion de estilo a article*/
@@ -19,30 +19,25 @@ body  {width: 80%; height: 80%; max-width: 1000px; margin-left: 5%; background-a
    font-size: 20px;padding: 8px;} 
    /*Aplicacion de estilos en etiquetas p*/
    p{width: 77%;font-size: larger;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:8px;}
-   .pli{width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:10px;}
-   .pli2{width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:10px;}
-   .pli3{width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:10px;}
-   .pli4{width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:10px;}
+   .pli,.pli2,.pli3,.pli4
+   {width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 30%;padding:10px;}
+  
    /*edidcion rama footer */.pli5 {width: 70%;font-size: 100%;font-family:"Trebuchet MS";text-align: justify;margin-left: 10%;padding:10px;}
    #parrafo5{background: sandybrown; width: 38%;}
    #parrafo6{background: sandybrown; width: 38%;}
    #parrafo9 {background: sandybrown; width: 38%;}
    /*Aplicacion estilo ol */
    ol {width: 80%;font-size:larger;font-family:'Trebuchet MS';text-align: justify;margin-left: 30%;padding:8px;}
-   #ol1{color:red;margin-left: 40%;}
    /*Aplicacion estilo div */
    div{margin-left: 5%;}
    /*Aplicacion estilo canvas */
-   canvas {margin-left: 5%;}
-   #texto_mercurio{ background-color:wheat; color:blue;}
-   #texto_venus{ background-color:wheat; color:blue;}
-   #texto_marte{ background-color:wheat; color:blue;}
-   #texto_jupiter{background-color:wheat; color:blue;}
-   #texto_saturno{ background-color:wheat; color:blue;}
-   #texto_urano{ background-color:wheat; color:blue;}
-   #texto_neptuno{ background-color:wheat; color:blue;}
-   #texto_sol{ background-color:wheat; color:blue;}
-   #texto_luna{ background-color:wheat; color:blue;}
+   canvas {margin-left: auto%;}
+   #texto_mercurio,#texto_venus,#texto_marte,#texto_jupiter,#texto_saturno,
+   #texto_urano,#texto_neptuno,#texto_sol,#texto_luna{ background-color:wheat; color:blue;}
+   
+  
+
+  
     
    /* Finalizaciond el proyecto... por ahora *   -- inicia continuacion (merge ramas )*/
 
