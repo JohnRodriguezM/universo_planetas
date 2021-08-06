@@ -1,22 +1,81 @@
 /* ---- Inicio proyecto en css ---- */
-body{
-   
-   max-width: 70%;
-   border: 1px solid blue; }
 
-header h1,h2 {
-  color:red;
-  padding: 0%;
+body{ 
+max-width: 900px;
+background-color: seashell;
+margin: left -0.5;
+border: 1px solid red;
+width:fit-content(100%);
+height: fit-content(100%);}
+
+/*
+-------------------*/
+#contenedor_header div{
   
+   text-align:center; 
+   width: 80%;
+   display: inline-block;
+   font-size: 20px;
+   margin-left: 10%;
+   
 }
 
 
+/*estilos del header */
+
+#contenedor_img_1 img{
+   
+   width: 20%;
+   height: 20%;
+   margin-left: -3.5%;
+   margin-top: -1%;
+   background-attachment: fixed;
+   
+}
+#i1:hover{
+   width: 30%;
+   height: 30%;
+   
+}
 
 
+nav ul li{
+   display:inline-flex;
+   margin: 0.2em;
+   text-align: center;
+  
+   
+}
 
+}
+nav ul li a {
+   text-decoration: none;
+   text-align: center;
+   
+  
+}
+nav ul {
+   text-align: center;
+   
+  
+}
+#nav_header{
+   margin-left: 15%;
+   margin-top: -18%;
+   width: 68%;
+   height: 68%;
+   font-size: 17px;
 
+  
+}
 
-
+#aside_header{
+   width: 15%;
+   height: 15%;
+   margin-left: 80%;
+   border:1px solid blue;
+   
+}
 
 
 
