@@ -1,11 +1,11 @@
 /* ---- Inicio proyecto en css ---- */
 
 body{ 
-max-width: 950px;
+max-width: 940px;
 background-color: seashell;
-margin-left: 0.5%;
-border-style:dotted;
-border-color: sandybrown;
+margin-left:5%;
+
+
 width:fit-content(100%);
 height: fit-content(100%);}
 
@@ -65,7 +65,7 @@ nav ul {
 
 #aside_header{
    margin-left: 78%;
-   margin-block-start: -16%;  
+   margin-block-start: -15%;  
    width: 20px;
 }
 
@@ -84,14 +84,29 @@ nav ul {
     color: #063AFF;
     border-radius: 8%;
     border: 0.7px solid #1598aa;
+    margin-right: 6%;
+   
  }
 
  /*main section */
 
- #main_section_figure1 img{
-    width: 70%;
+ #main_section_figure1 img {
+    width: 65%;
    margin-left: 15%;
  }
+ #main_section_figure1 img:hover{
+    border:1.2px solid #063AFF;
+ }
+ #main_section_figure1 figcaption{
+    margin-left: 15%;   
+    width: 80%;
+ }
+ #dibujito{
+    margin-left:38%;
+    width: 25%;
+ }
+ 
+
 
 
 
@@ -103,8 +118,14 @@ nav ul {
  /*aside js*/
 
  #aside_js{
-    margin-left: 50%;
+    margin-left: 0%;
+    margin-top: 0%;
+    width: 100%;
+   
+        
  }
+ 
+ 
 
  
 
