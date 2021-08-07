@@ -1,10 +1,11 @@
 /* ---- Inicio proyecto en css ---- */
 
 body{ 
-max-width: 899px;
+max-width: 950px;
 background-color: seashell;
-margin: left -0.5;
-
+margin-left: 0.5%;
+border-style:dotted;
+border-color: sandybrown;
 width:fit-content(100%);
 height: fit-content(100%);}
 
@@ -41,12 +42,14 @@ nav ul li{
    display:inline-block;
    margin: 0.2em;
    text-align: center;
+  
   }
 
 
 nav ul li a {
    text-decoration: none;
-   text-align: center;  
+   text-align: center; 
+   color:blue; 
 }
 nav ul {
    text-align: center;
@@ -57,17 +60,10 @@ nav ul {
    height: 68%;
    margin-top: -10%;
    font-size: 150%;
-   
    background-position-x: center;
-  
-  
-
-  
-}
+ }
 
 #aside_header{
-   
-   
    margin-left: 78%;
    margin-block-start: -16%;  
    width: 20px;
@@ -80,7 +76,7 @@ nav ul {
 }
 #img1:active, #img2:active, #img3:active {
   width: 60px;
-  height: 60px;
+  height: 60px;  
  }
 
  #h1-h2_header h1 {
@@ -89,6 +85,19 @@ nav ul {
     border-radius: 8%;
     border: 0.7px solid #1598aa;
  }
+
+ /*main section */
+
+ #main_section_figure1 img{
+    width: 70%;
+   margin-left: 15%;
+ }
+
+
+
+
+
+
 
 
  /*aside js*/
