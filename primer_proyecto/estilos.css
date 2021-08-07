@@ -20,7 +20,6 @@ height: fit-content(100%);}
    
 }
 
-
 /*estilos del header */
 
 #contenedor_img_1 img{
@@ -30,11 +29,13 @@ height: fit-content(100%);}
    margin-left: -3.5%;
    margin-top: -1%;
    background-attachment: fixed;
+   border:1px solid blue;
    
 }
 #i1:hover{
    width: 30%;
    height: 30%;
+   border: 3px solid #aafffa;
    
 }
 
@@ -61,10 +62,11 @@ nav ul {
 }
 #nav_header{
    margin-left: 15%;
-   margin-top: -18%;
    width: 68%;
    height: 68%;
-   font-size: 17px;
+   margin-top: -4%;
+  
+  
 
   
 }
@@ -72,8 +74,9 @@ nav ul {
 #aside_header{
    width: 15%;
    height: 15%;
-   margin-left: 80%;
+   margin-left: 83%;
    border:1px solid blue;
+   margin-block-start: -20%;
    
 }
 
