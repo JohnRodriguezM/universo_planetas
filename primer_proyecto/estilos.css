@@ -1,70 +1,64 @@
 /* ---- Inicio proyecto en css ---- */
 
 body{ 
-max-width: 900px;
+max-width: 899px;
 background-color: seashell;
 margin: left -0.5;
-border: 1px solid red;
+
 width:fit-content(100%);
 height: fit-content(100%);}
 
 /*
 -------------------*/
-#contenedor_header div{
-  
+#contenedor_header div
+{
    text-align:center; 
    width: 80%;
    display: inline-block;
    font-size: 20px;
    margin-left: 10%;
-   
-}
+   }
 
 /*estilos del header */
 
-#contenedor_img_1 img{
-   
-   width: 20%;
-   height: 20%;
+#contenedor_img_1 img
+{
+   width: 125px;
+   height: 125px;
    margin-left: -3.5%;
    margin-top: -1%;
    background-attachment: fixed;
    border:1px solid blue;
-   
 }
 #i1:hover{
-   width: 30%;
-   height: 30%;
+   width: 180px;
+   height: 180px;
    border: 3px solid #aafffa;
-   
-}
+   }
 
 
 nav ul li{
-   display:inline-flex;
+   display:inline-block;
    margin: 0.2em;
    text-align: center;
-  
-   
-}
+  }
 
-}
+
 nav ul li a {
    text-decoration: none;
-   text-align: center;
-   
-  
+   text-align: center;  
 }
 nav ul {
    text-align: center;
-   
-  
-}
+   }
 #nav_header{
-   margin-left: 15%;
+   margin-left: 12%;
    width: 68%;
    height: 68%;
-   margin-top: -4%;
+   margin-top: -10%;
+   font-size: 150%;
+   
+   background-position-x: center;
   
   
 
@@ -72,14 +66,38 @@ nav ul {
 }
 
 #aside_header{
-   width: 15%;
-   height: 15%;
-   margin-left: 83%;
-   border:1px solid blue;
-   margin-block-start: -20%;
    
+   
+   margin-left: 78%;
+   margin-block-start: -16%;  
+   width: 20px;
 }
 
+#aside_header figure img{
+   width: 45px;
+   height: 45px;
+   border: 1px solid #aafffa;
+}
+#img1:active, #img2:active, #img3:active {
+  width: 60px;
+  height: 60px;
+ }
+
+ #h1-h2_header h1 {
+    font-size: 120%;
+    color: #063AFF;
+    border-radius: 8%;
+    border: 0.7px solid #1598aa;
+ }
+
+
+ /*aside js*/
+
+ #aside_js{
+    margin-left: 50%;
+ }
+
+ 
 
 
 /* Aplicacion de estilos para el body */
