@@ -1,13 +1,10 @@
 /* ---- Inicio proyecto en css ---- */
 
 body{ 
-max-width: 940px;
+max-width: 970px;
 background-color: seashell;
 margin-left:5%;
-
-
-width:fit-content(100%);
-height: fit-content(100%);}
+margin-right: 5%;}
 
 /*
 -------------------*/
@@ -30,13 +27,13 @@ height: fit-content(100%);}
    margin-top: -1%;
    background-attachment: fixed;
    border:1px solid blue;
+   border-radius: 10%;
 }
 #i1:hover{
    width: 180px;
    height: 180px;
    border: 3px solid #aafffa;
    }
-
 
 nav ul li{
    display:inline-block;
@@ -64,7 +61,7 @@ nav ul {
  }
 
 #aside_header{
-   margin-left: 78%;
+   margin-left: 70%;
    margin-block-start: -15%;  
    width: 20px;
 }
@@ -73,39 +70,71 @@ nav ul {
    width: 45px;
    height: 45px;
    border: 1px solid #aafffa;
+   border-radius: 30%;
+  
+  
 }
+
 #img1:active, #img2:active, #img3:active {
   width: 60px;
   height: 60px;  
+  border-radius: 10%;
  }
 
  #h1-h2_header h1 {
     font-size: 120%;
     color: #063AFF;
     border-radius: 8%;
-    border: 0.7px solid #1598aa;
-    margin-right: 6%;
+    border: 1px solid #1598aa;
+    margin-right: 10%;
+    margin-left: 5%;
    
+ }
+ #h1-h2_header h1:hover{
+border:3px solid #063AFF
  }
 
  /*main section */
 
  #main_section_figure1 img {
     width: 65%;
-   margin-left: 15%;
+    border-radius: 10%;
+   
  }
  #main_section_figure1 img:hover{
     border:1.2px solid #063AFF;
  }
  #main_section_figure1 figcaption{
-    margin-left: 15%;   
+       
     width: 80%;
  }
  #dibujito{
-    margin-left:38%;
-    width: 25%;
+    
+    width: 30%;
+ }
+ /*imagenes planetas*/
+ 
+ #figure_big_son:hover{
+   width: 25%;
+ }
+ #figure_big_son{
+    border-radius: 15%;
+    border:4px solid lavender;
  }
  
+ /*articles*/
+
+ #main_section_articles {
+    text-align:justify;
+    line-height: 150%;
+ }
+ #ol-universe{
+    line-height: 150%;
+    text-align: justify;
+ }
+
+ 
+
 
 
 
@@ -116,17 +145,38 @@ nav ul {
 
 
  /*aside js*/
+  
+ #aside_js h4{
+    color:rgba(212, 38, 38, 0.842);
+ }
 
- #aside_js{
-    margin-left: 0%;
-    margin-top: 0%;
-    width: 100%;
-   
-        
+ #aside_js label{
+    line-height: 200%;
+    font-size: 22px;
+ }
+
+ .textoplanetas{
+    font-size: 20px;
+    border-radius: 12%;
+    background-color:rgb(246, 246, 246);
+    border-color:#1598aa;
+    box-shadow:inset;
+ }
+ .botonplanetas{
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 30%;
+    
+ }
+ #i11{
+    width: auto;
+    border: 2px solid ivory;
  }
  
- 
 
+ 
+/*¿imagenes responsive?*/
+/*¿max-width:100%;width:auto;height:auto?*/
  
 
 

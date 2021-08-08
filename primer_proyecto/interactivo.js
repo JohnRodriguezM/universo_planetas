@@ -37,10 +37,10 @@ var a_9 = zz.addEventListener("click", peso_9);
 
 function peso_1(){const g_tierra = 9.8; const g_mercurio = 3.77 ; 
 let peso_final = c.value * g_mercurio / g_tierra; peso_final = peso_final.toFixed(2);
-document.getElementById("parrafo1").innerHTML = "tu peso en mercurio es " + peso_final + " kilogramos";}
+document.getElementById("parrafo1").innerHTML = "Tu peso en Mercurio es " + peso_final + " Kilogramos";}
 function peso_2(){const g_venus = 8.87; const g_tierra = 9.8; 
 let peso_final = e.value * g_venus / g_tierra; peso_final = peso_final.toFixed(2);
-document.getElementById("parrafo2").innerHTML = "Tu peso en venus es " + peso_final + " kilogramos";}
+document.getElementById("parrafo2").innerHTML = "Tu peso en Venus es " + peso_final + " Kilogramos";}
 function peso_3(){const g_tierra = 9.8;const g_marte = 3.721;
 let peso_final = g.value * g_marte / g_tierra;peso_final = peso_final.toFixed(2);
 document.getElementById("parrafo3").innerHTML = "Tu peso en Marte es " + peso_final + " Kilogramos";}
@@ -58,7 +58,7 @@ let peso_final = x.value * g_neptuno / g_tierra;peso_final = peso_final.toFixed(
 document.getElementById("parrafo7").innerHTML = "Tu peso en Neptuno es " + peso_final + " Kilogramos";}
 function peso_8(){const g_tierra = 9.8;const g_sol = 274;
 let peso_final = y.value * g_sol / g_tierra;peso_final = peso_final.toFixed(2);
-document.getElementById("parrafo8").innerHTML = "Tu peso en el Soooool es " + peso_final + " Kilogramos";}
+document.getElementById("parrafo8").innerHTML = "Tu peso en el Sol es " + peso_final + " Kilogramos";}
 function peso_9(){const g_tierra = 9.8;const g_luna = 1.62 ;
 let peso_final = z.value * g_luna / g_tierra;peso_final = peso_final.toFixed(2);
 document.getElementById("parrafo9").innerHTML = "Tu peso en la Luna es " + peso_final + " Kilogramos"; }
