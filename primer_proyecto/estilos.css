@@ -173,6 +173,14 @@ border:3px solid #063AFF
     border: 2px solid ivory;
  }
  
+ #footer1::first-letter{
+    color:#063AFF;
+    font-size: 150px;
+
+ }
+ #footer1::first-line{
+    background-color: red;
+ }
 
  
 /*¿imagenes responsive?*/
