@@ -63,19 +63,28 @@ function peso_9(){const g_tierra = 9.8;const g_luna = 1.62 ;
 let peso_final = z.value * g_luna / g_tierra;peso_final = peso_final.toFixed(2);
 document.getElementById("parrafo9").innerHTML = "Tu peso en la Luna es " + peso_final + " Kilogramos"; }
 
+
+
 //Finalizacion del proyecto... por ahora//
-//-------------------------------------//
+//---------------------------//
+
+var edad_texto = document.getElementById("texto_edad");
+var edad_boton = document.getElementById("boton_edad");
+var efun = edad_boton.addEventListener("click",traer_Resultado);
 
 
+function traer_Resultado(){
 
 
+  if(edad_texto.value >= 18){ document.getElementById("parrafo_edad1").innerHTML = "Tu edad edad es adecuada para entrar a una discoteca"; }
+
+else if (edad_texto.value == 17){
+  document.getElementById("parrafo_edad1").innerHTML = "Te falta un año para poder ingresar";}
 
 
-
-
-
-
-
+else{
+  document.getElementById("parrafo_edad1").innerHTML = "Definitivamente no puedes ingresar aun";}
+}
 
 
 
