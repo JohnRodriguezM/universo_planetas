@@ -68,6 +68,7 @@ document.getElementById("parrafo9").innerHTML = "Tu peso en la Luna es " + peso_
 //Finalizacion del proyecto... por ahora//
 //---------------------------//
 
+//edad para entrar a una discoteca//
 var edad_texto = document.getElementById("texto_edad");
 var edad_boton = document.getElementById("boton_edad");
 var efun = edad_boton.addEventListener("click",traer_Resultado);
@@ -75,18 +76,47 @@ var efun = edad_boton.addEventListener("click",traer_Resultado);
 
 function traer_Resultado(){
 
+   if(edad_texto.value <= 4)
+   {
+     document.getElementById("parrafo_edad1").innerHTML = "Tu aun ni sabes caminar bien";
+   }
 
-  if(edad_texto.value >= 18){ document.getElementById("parrafo_edad1").innerHTML = "Tu edad edad es adecuada para entrar a una discoteca"; }
+   else if (edad_texto.value < 17)
+  {
+    document.getElementById("parrafo_edad1").innerHTML = "no puedes ingresar";
+  }
 
-else if (edad_texto.value == 17){
-  document.getElementById("parrafo_edad1").innerHTML = "Te falta un año para poder ingresar";}
+  else if (edad_texto.value == 17)
+  {
+  document.getElementById("parrafo_edad1").innerHTML = "Te falta un año para poder ingresar";
+  }
+
+  else if(edad_texto.value > 17 && edad_texto.value < 55)
+  { 
+    document.getElementById("parrafo_edad1").innerHTML = "Tu edad edad es adecuada para entrar a una discoteca"; 
+  }
+
+ else if(edad_texto.value >= 55)
+ {
+   document.getElementById("parrafo_edad1").innerHTML = "claro que si, veterano de rumbas";
+ }
+
+ }
 
 
-else{
-  document.getElementById("parrafo_edad1").innerHTML = "Definitivamente no puedes ingresar aun";}
+for (let i = 1; i < 101; i++) {
+
+  
+  document.write(i + "<br>");
+
+ if (i == 5){
+
+   document.write("fixx");
+ }
+
+
+  
 }
-
-
 
 
 
