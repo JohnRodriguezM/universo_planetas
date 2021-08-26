@@ -1,28 +1,26 @@
 # universo_planetas
+##planets
 
 
-Comenzando 🚀 (primer proyecto) un pequeño acercamiento al desarrollo web.
+Starting 🚀 (first project) web design.
 
-Este proyecto es el primero de desarrollo web online, es un proyecto basico, tiene integrado informacion respecto del universo, asi como ciertos link que comunican a otras paginas que brindan una mayor informacion, ademas usa un poco de css3 y js para agregar estilos e interactividad como una calculadora de peso en otros planetas y una pequeña caja de texto que dependiendo tu edad te dice si puedes o no ingresar a una discoteca.
+**This project is the first in web development, is a basic project, it have universe information, also links conectted with other pages like wikipedia**
 
-Ejecutando las pruebas ⚙️https://johnrodriguezm.github.io/universo_planetas/primer_proyecto/escritos.html
+also uses some css3 and js to add styles and interactivity like a weight calculator in other planets and a small text box that depending your age tells you if you can or cannot enter in a nightclub.
+
+⚙️ see [here](https://johnrodriguezm.github.io/universo_planetas/primer_proyecto/escritos.html)
 
 ![image](https://user-images.githubusercontent.com/87795271/130889554-52a693ec-db83-46f3-8d92-8b44c14d561b.png)
 
 
-Construido con 🛠️
+Built with 🛠️
 
-se usaron tecnologías de diseño y maquetado como :
+-HTML5 
+-CSS3
 
--HTML5 -CSS3
+also a little of Js for interactivuty with the user
 
-y también para agregar un poco de interactividad fue usado JS (javascript)
-
-Versionado 📌
-
-El sistema de control de versiones usado fue Git.
-
-Autores ✒️
+Author ✒️
 
 John Jairo Rodriguez Medina
 
