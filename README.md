@@ -1,5 +1,4 @@
 # universo_planetas
-##planets
 
 
 Starting 🚀 (first project) web design.
